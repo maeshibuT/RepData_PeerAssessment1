@@ -43,6 +43,7 @@ intsteps[intsteps==max(intsteps)]
 **5-minute interval which contains max steps is "835"**
 
 ## Imputing missing values
+
 ```{r echo=TRUE}
 #calculate the total number of missing values in he dataset
 table(is.na(activity$steps))
